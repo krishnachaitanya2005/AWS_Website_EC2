@@ -16,12 +16,12 @@ ssh -i your-key.pem ec2-user@your-ec2-public-ip
 sudo yum update -y
 ```
 
-## 4️⃣ Install Apache
+## 4️⃣ Install HTTPD
 ```
 sudo yum install -y httpd
 ```
 
-## 5️⃣ Start & Enable Apache
+## 5️⃣ Start & Enable HTTPD
 ```
 sudo systemctl start httpd
 sudo systemctl enable httpd
